@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #e0f7fa; /* Light cyan background */
+  color: #004d40; /* Dark teal text */
 }
 
 /* Título principal */
@@ -16,8 +16,8 @@ header h1 {
   font-size: 2.5em;   /* Título grande pero sin exagerar */
   text-align: left;
   padding: 20px;
-  color: #333;
-  border-bottom: 2px solid #ddd;
+  color: #004d40; /* Dark teal text */
+  border-bottom: 2px solid #00796b; /* Teal border */
   margin-left: 20px;
 }
 
@@ -31,7 +31,7 @@ header h1 {
 }
 
 .marcadores button {
-  background-color: #4caf50;
+  background-color: #00796b; /* Teal background */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -41,7 +41,7 @@ header h1 {
 }
 
 .marcadores button:hover {
-  background-color: #45a049;
+  background-color: #004d40; /* Dark teal background on hover */
 }
 
 /* Galería de imágenes */
@@ -71,5 +71,5 @@ header h1 {
 .tarjeta p {
   padding: 10px;
   font-size: 1em;
-  color: #333;
+  color: #004d40; /* Dark teal text */
 }
